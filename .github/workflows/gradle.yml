@@ -43,4 +43,4 @@ jobs:
         context: ./
         dockerfile: Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_REPOSITORY }}/chirp_applicationserver:latest
+        tags: ${{ secrets.DOCKERHUB_REPOSITORY }}/lab_github_action:latest
