@@ -31,7 +31,5 @@ jobs:
 #      with:
 #        arguments: build
       run: |
-        cd ./back_end
         chmod +x ./gradlew
         ./gradlew wrapper clean build
-        cd ../
